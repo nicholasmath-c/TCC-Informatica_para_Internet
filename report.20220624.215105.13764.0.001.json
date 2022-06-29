@@ -1,0 +1,534 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20220624.215105.13764.0.001.json",
+    "dumpEventTime": "2022-06-24T21:51:05Z",
+    "dumpEventTimeStamp": "1656118265756",
+    "processId": 13764,
+    "cwd": "C:\\Users\\User\\Desktop\\TRABALHOS E ATIVIDADES 2022\\TCC\\SITE\\sitetccATT",
+    "commandLine": [
+      "node",
+      "C:\\Users\\User\\Desktop\\TRABALHOS E ATIVIDADES 2022\\TCC\\SITE\\sitetccATT\\node_modules\\.bin\\\\..\\tailwindcss\\lib\\cli.js",
+      "-i",
+      "./src/input.css",
+      "-o",
+      "./dist/output.css",
+      "--watch"
+    ],
+    "nodejsVersion": "v12.16.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.1",
+      "v8": "7.8.279.23-node.31",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19044",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 3 3200G with Radeon Vega Graphics    ",
+        "speed": 3593,
+        "user": 9406140,
+        "nice": 0,
+        "sys": 11234812,
+        "idle": 137624125,
+        "irq": 761843
+      },
+      {
+        "model": "AMD Ryzen 3 3200G with Radeon Vega Graphics    ",
+        "speed": 3593,
+        "user": 10820562,
+        "nice": 0,
+        "sys": 9336281,
+        "idle": 138108093,
+        "irq": 97828
+      },
+      {
+        "model": "AMD Ryzen 3 3200G with Radeon Vega Graphics    ",
+        "speed": 3593,
+        "user": 10142453,
+        "nice": 0,
+        "sys": 9628515,
+        "idle": 138493968,
+        "irq": 124234
+      },
+      {
+        "model": "AMD Ryzen 3 3200G with Radeon Vega Graphics    ",
+        "speed": 3593,
+        "user": 10583187,
+        "nice": 0,
+        "sys": 11233656,
+        "idle": 136448093,
+        "irq": 170281
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Radmin VPN",
+        "internal": false,
+        "mac": "02:50:5d:01:33:6c",
+        "address": "fdfd::1a7e:f482",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Radmin VPN",
+        "internal": false,
+        "mac": "02:50:5d:01:33:6c",
+        "address": "fe80::a4be:ba0c:6d50:8a5a",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 11
+      },
+      {
+        "name": "Radmin VPN",
+        "internal": false,
+        "mac": "02:50:5d:01:33:6c",
+        "address": "26.126.244.130",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Hamachi",
+        "internal": false,
+        "mac": "7a:79:19:3d:ff:45",
+        "address": "2620:9b::193d:ff45",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Hamachi",
+        "internal": false,
+        "mac": "7a:79:19:3d:ff:45",
+        "address": "fe80::950d:f0d6:125a:49ce",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 16
+      },
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "0c:9d:92:8f:12:c6",
+        "address": "fe80::145c:f9f2:5854:154e",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 5
+      },
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "0c:9d:92:8f:12:c6",
+        "address": "192.168.1.4",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "VMware Network Adapter VMnet1",
+        "internal": false,
+        "mac": "00:50:56:c0:00:01",
+        "address": "fe80::a5d4:940e:5b44:8349",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 10
+      },
+      {
+        "name": "VMware Network Adapter VMnet1",
+        "internal": false,
+        "mac": "00:50:56:c0:00:01",
+        "address": "192.168.239.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "VMware Network Adapter VMnet8",
+        "internal": false,
+        "mac": "00:50:56:c0:00:08",
+        "address": "fe80::d473:e1d7:d8af:d1da",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 20
+      },
+      {
+        "name": "VMware Network Adapter VMnet8",
+        "internal": false,
+        "mac": "00:50:56:c0:00:08",
+        "address": "192.168.209.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "ZeroTier One [6ab565387a97de14]",
+        "internal": false,
+        "mac": "16:cb:3e:96:67:e3",
+        "address": "fe80::e406:dbd8:f594:b102",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 2
+      },
+      {
+        "name": "ZeroTier One [6ab565387a97de14]",
+        "internal": false,
+        "mac": "16:cb:3e:96:67:e3",
+        "address": "10.241.93.81",
+        "netmask": "255.255.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Teredo Tunneling Pseudo-Interface",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "2001:0:2877:7aa:3083:e9dd:7500:90c6",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Teredo Tunneling Pseudo-Interface",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::3083:e9dd:7500:90c6",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 15
+      }
+    ],
+    "host": "DESKTOP-DTCI3E1"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff70ba519f9",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff70ba55e1c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff70ba54dd8",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff70bb534cb",
+      "symbol": "v8::base::CPU::has_sse+38363"
+    },
+    {
+      "pc": "0x00007ff70c369f4e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff70c352021",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff70c21e57c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff70c2297d0",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff70c2262f4",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff70c21bb13",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff70c21a184",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2452"
+    },
+    {
+      "pc": "0x00007ff70c23b36d",
+      "symbol": "v8::internal::Factory::NewFillerObject+61"
+    },
+    {
+      "pc": "0x00007ff70bfa0c51",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+1665"
+    },
+    {
+      "pc": "0x00007ff70c7b4ddd",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+546637"
+    },
+    {
+      "pc": "0x00007ff70c7b5ed3",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+550979"
+    },
+    {
+      "pc": "0x000000bedf7e339d",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2151268352,
+    "totalCommittedMemory": 2151268352,
+    "usedMemory": 2134051624,
+    "availableMemory": 54446160,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 2097152,
+        "committedMemory": 2097152,
+        "capacity": 1047456,
+        "used": 190744,
+        "available": 856712
+      },
+      "old_space": {
+        "memorySize": 2134786048,
+        "committedMemory": 2134786048,
+        "capacity": 2126500152,
+        "used": 2120505104,
+        "available": 5995048
+      },
+      "code_space": {
+        "memorySize": 1216512,
+        "committedMemory": 1216512,
+        "capacity": 944960,
+        "used": 944960,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 1314816,
+        "committedMemory": 1314816,
+        "capacity": 865280,
+        "used": 865280,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 11542528,
+        "committedMemory": 11542528,
+        "capacity": 11509944,
+        "used": 11509944,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047456,
+        "used": 0,
+        "available": 1047456
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 261.031,
+    "kernelCpuSeconds": 207.562,
+    "cpuConsumptionPercent": 6.62322,
+    "maxRss": 3395862528,
+    "pageFaults": {
+      "IORequired": 3422552,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 1500,
+      "writes": 103
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\Users\\User\\Desktop\\TRABALHOS E ATIVIDADES 2022\\TCC\\SITE\\sitetccATT",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\User\\AppData\\Roaming",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132301738035930225",
+    "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_632_DXXSJCIPOZRXVCKY",
+    "COLOR": "1",
+    "COLORTERM": "truecolor",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-DTCI3E1",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EDITOR": "notepad.exe",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "GIT_ASKPASS": "c:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "GOOGLE_API_KEY": "no",
+    "GOOGLE_DEFAULT_CLIENT_ID": "no",
+    "GOOGLE_DEFAULT_CLIENT_SECRET": "no",
+    "HOME": "C:\\Users\\User",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\User",
+    "INIT_CWD": "C:\\Users\\User\\Desktop\\TRABALHOS E ATIVIDADES 2022\\TCC\\SITE\\sitetccATT",
+    "INTEL_DEV_REDIST": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\",
+    "LANG": "pt_BR.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\User\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-DTCI3E1",
+    "MIC_LD_LIBRARY_PATH": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\compiler\\lib\\mic",
+    "NODE": "C:\\Program Files\\nodejs\\node.exe",
+    "NODE_EXE": "C:\\Program Files\\nodejs\\\\node.exe",
+    "NPM_CLI_JS": "C:\\Program Files\\nodejs\\\\node_modules\\npm\\bin\\npm-cli.js",
+    "npm_command": "exec",
+    "npm_config_cache": "C:\\Users\\User\\AppData\\Local\\npm-cache",
+    "npm_config_globalconfig": "C:\\Users\\User\\AppData\\Roaming\\npm\\etc\\npmrc",
+    "npm_config_global_prefix": "C:\\Users\\User\\AppData\\Roaming\\npm",
+    "npm_config_init_module": "C:\\Users\\User\\.npm-init.js",
+    "npm_config_local_prefix": "C:\\Users\\User\\Desktop\\TRABALHOS E ATIVIDADES 2022\\TCC\\SITE\\sitetccATT",
+    "npm_config_metrics_registry": "https://registry.npmjs.org/",
+    "npm_config_node_gyp": "C:\\Users\\User\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js",
+    "npm_config_noproxy": "",
+    "npm_config_prefix": "C:\\Users\\User\\AppData\\Roaming\\npm",
+    "npm_config_userconfig": "C:\\Users\\User\\.npmrc",
+    "npm_config_user_agent": "npm/8.1.4 node/v12.16.1 win32 x64 workspaces/false",
+    "npm_execpath": "C:\\Users\\User\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npx-cli.js",
+    "npm_lifecycle_event": "npx",
+    "npm_lifecycle_script": "tailwindcss \"-i\" \"./src/input.css\" \"-o\" \"./dist/output.css\" \"--watch\"",
+    "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
+    "npm_package_json": "C:\\Users\\User\\Desktop\\TRABALHOS E ATIVIDADES 2022\\TCC\\SITE\\sitetccATT\\package.json",
+    "npm_package_name": "sitetccatt",
+    "npm_package_version": "1.0.0",
+    "NPM_PREFIX_NPX_CLI_JS": "C:\\Users\\User\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npx-cli.js",
+    "NPX_CLI_JS": "C:\\Users\\User\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npx-cli.js",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OneDrive": "C:\\Users\\User\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\User\\OneDrive",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "OS": "Windows_NT",
+    "PATH": "C:\\Users\\User\\Desktop\\TRABALHOS E ATIVIDADES 2022\\TCC\\SITE\\sitetccATT\\node_modules\\.bin;C:\\Users\\User\\Desktop\\TRABALHOS E ATIVIDADES 2022\\TCC\\SITE\\node_modules\\.bin;C:\\Users\\User\\Desktop\\TRABALHOS E ATIVIDADES 2022\\TCC\\node_modules\\.bin;C:\\Users\\User\\Desktop\\TRABALHOS E ATIVIDADES 2022\\node_modules\\.bin;C:\\Users\\User\\Desktop\\node_modules\\.bin;C:\\Users\\User\\node_modules\\.bin;C:\\Users\\node_modules\\.bin;C:\\node_modules\\.bin;C:\\Users\\User\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\MinGW\\bin;C:\\Program Files (x86)\\ZeroTier\\One\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\Desktop\\TRABALHOS E ATIVIDADES 2022\\TCC\\SITE\\sitetccATT\\node_modules\\.bin",
+    "Path": "C:\\Users\\User\\Desktop\\TRABALHOS E ATIVIDADES 2022\\TCC\\SITE\\sitetccATT\\node_modules\\.bin;C:\\Users\\User\\Desktop\\TRABALHOS E ATIVIDADES 2022\\TCC\\SITE\\node_modules\\.bin;C:\\Users\\User\\Desktop\\TRABALHOS E ATIVIDADES 2022\\TCC\\node_modules\\.bin;C:\\Users\\User\\Desktop\\TRABALHOS E ATIVIDADES 2022\\node_modules\\.bin;C:\\Users\\User\\Desktop\\node_modules\\.bin;C:\\Users\\User\\node_modules\\.bin;C:\\Users\\node_modules\\.bin;C:\\node_modules\\.bin;C:\\Users\\User\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\MinGW\\bin;C:\\Program Files (x86)\\ZeroTier\\One\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\Desktop\\TRABALHOS E ATIVIDADES 2022\\TCC\\SITE\\sitetccATT\\node_modules\\.bin",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD",
+    "PROCESSOR_LEVEL": "23",
+    "PROCESSOR_REVISION": "1801",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Users\\User\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\PowerShell\\Modules\\",
+    "PT7HOME": "C:\\Program Files\\Cisco Packet Tracer 7.3.1",
+    "PT8HOME": "C:\\Program Files\\Cisco Packet Tracer 8.0.1",
+    "PUBLIC": "C:\\Users\\Public",
+    "QT_DEVICE_PIXEL_RATIO": "auto",
+    "RG_GPU_FRAMEWORK_ENGINE_RESOURCEDIR": "C:\\Program Files\\Red Giant\\RGFX",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\User\\AppData\\Local\\Temp",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.68.1",
+    "TMP": "C:\\Users\\User\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-DTCI3E1",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-DTCI3E1",
+    "USERNAME": "User",
+    "USERPROFILE": "C:\\Users\\User",
+    "VBOX_HWVIRTEX_IGNORE_SVM_IN_USE": "1",
+    "VSCODE_GIT_ASKPASS_EXTRA_ARGS": "--ms-enable-electron-run-as-node",
+    "VSCODE_GIT_ASKPASS_MAIN": "c:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+    "VSCODE_GIT_ASKPASS_NODE": "C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-7c4322fa4b-sock",
+    "windir": "C:\\WINDOWS"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\bcryptprimitives.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll"
+  ]
+}
