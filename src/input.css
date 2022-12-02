@@ -3,3 +3,12 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 @import url('http://fonts.cdnfonts.com/css/tt-norms-pro');
+
+@import '@splidejs/splide/css';
+
+
+@import '@splidejs/splide/css/skyblue';
+@import '@splidejs/splide/css/sea-green';
+
+
+@import '@splidejs/splide/css/core';
